@@ -1,0 +1,36 @@
+.items {
+  display: flex;
+  flex-direction: row;
+  width: 22%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+@media (max-width: 600px) {
+  .items {
+    width: 48%;
+  }
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #f46400;
+}
+.item input {
+  margin-right: 3px;
+}
+.item .btn {
+  color: red;
+  margin-left: 4px;
+  font-weight: bolder;
+  padding: 0;
+  font-size: 17px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}

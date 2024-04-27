@@ -1,0 +1,12 @@
+.logo {
+  padding: 25px;
+  background-color: #fd9200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

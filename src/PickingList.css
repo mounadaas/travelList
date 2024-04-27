@@ -1,0 +1,33 @@
+.list {
+  padding: 25px;
+  background-color: #523422;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: calc(100vh - 270px);
+  gap: 15px;
+}
+.listitems {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.sorted {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.sorted select,
+.sorted button {
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}

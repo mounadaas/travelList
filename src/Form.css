@@ -1,0 +1,36 @@
+.trip {
+  padding: 15px;
+  background-color: #f46400;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .trip p,
+  .trip form {
+    text-align: center;
+    width: 100%;
+  }
+  .trip p {
+    margin-bottom: 10px;
+  }
+}
+
+.trip button,
+.trip input,
+.trip select {
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+.trip button {
+  background-color: #4fc1a0;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
